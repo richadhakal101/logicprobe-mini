@@ -1,0 +1,15 @@
+#clock (UPduino has 12 MHz on pin 35)
+set_io clk 35
+
+#UART TX out to FTDI (UPduino user IO pin 6 works well)
+set_io uart_tx 6
+
+# 8 logic analyzer channels (choose accessible 3.3V GPIO)
+set_io ch0 2
+set_io ch1 3
+set_io ch2 4
+set_io ch3 5
+set_io ch4 9
+set_io ch5 10
+set_io ch6 11
+set_io ch7 12
